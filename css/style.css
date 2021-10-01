@@ -1,0 +1,333 @@
+/* Reset */
+body, h1, h2, ul, li, p, a {
+	margin: 0px;
+	color: #545459;
+}
+
+body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+}
+
+ul {
+	list-style: none;
+  }
+  
+  a {
+	text-decoration: none;
+  }
+  
+  img {
+	display: block;
+	max-width: 100%;
+  }
+  
+  * {
+	box-sizing: border-box;
+  }
+  
+
+/* Menu */
+
+.menu-container {
+	background: #d65814;	
+	border-bottom: 1px solid black;
+}
+
+.menu {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-nav ul {
+	
+	display: flex;
+
+}
+
+.menu li a {
+	color: white;
+	font-size: .8em;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.menu li a:hover {
+	background: white;
+	color: #545459;
+	border-radius: 2px;
+}
+
+/* Header */
+
+.header {
+	background: #e47133;
+	padding: 100px 0;
+}
+
+.header h1 {
+	font-size: 1.75em;
+	color: white;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.header p {
+	font-size: .8em;
+	color: #ded6d2;
+	text-align: center;
+	background: #900F05;
+}
+
+.info {
+	max-width: 1200px;
+	margin: 80px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.info-item {
+	max-width: 400px;
+}
+
+.info-item h2 {
+	font-size: 1.5em;
+}
+
+.info-item p {
+	font-size: .8em;
+	padding-bottom: 20px;
+}
+
+.info-item a {
+	color: #d65814;
+}
+
+.info-item a:hover {
+	color: #7f340b;
+	}
+
+/* Eventos */
+
+.eventos {
+	max-width: 1200px;
+	margin: 80px auto;
+}
+
+.eventos h1 {
+	font-size: 1.9em;
+	color: #676767;
+	padding-bottom: 20px;
+}
+
+.eventos-container {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.eventos-item {
+margin: 20px;
+}
+
+.eventos-item img {
+	padding-bottom: 20px;
+}
+
+.eventos-item a {
+	color:#d65814;
+	font-size: 1.25em;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.eventos-item a:hover {
+	color: #7f340b;
+	}
+
+.eventos-item span {
+	display: block;
+	font-style: italic;
+	font-size: .8em;
+	padding-bottom: 10px;
+}
+
+/* Blof */
+
+.blog {
+	max-width: 1200px;
+	margin: 80px auto;	
+}
+
+.blog h1 {
+	font-size: 1.9em;
+	color: #676767;
+	margin-bottom: 20px;
+}
+
+.blog-container {
+	display: flex;
+}
+
+.blog-item {
+	margin: 20px;
+}
+
+.blog-item img {
+	padding-bottom: 20px;
+}
+
+.blog-item span {
+	display: block;
+}
+
+.blog-item a {
+	color: #d65814;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.blog-item a:hover {
+	color: #7f340b;
+	}
+
+.blog-item span {
+	padding-bottom: 10px;
+}
+
+.blog-item p {
+	font-size: .8em;
+
+}
+
+.blog-button {
+	
+	text-align: center;
+	margin: 20px 0;
+}
+
+.blog-button button {
+	font-size: .8em;
+	text-align: center;
+	padding: 10px 20px;
+	background: transparent;
+	border: 1px solid transparent;
+	border-color: #ccc;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+/* Subscribe */
+.subscribe {
+	background: #f8f8f8;
+	padding: 70px 0;
+	
+		
+}
+
+.subscribe h2 {
+	text-align: center;
+	margin: 20px auto;
+	font-size: 1.9em;
+}
+
+.subscribe form {
+	text-align: center;
+}
+
+.subscribe input {
+	font-size: 1.2em;
+	width: 400px;
+	margin: 0px;
+	padding: 15px;
+	background: white;
+	border: 1px solid transparent;
+	border-color: #ccc;
+}
+
+.subscribe button {
+	font-size: 1.2em;
+	padding: 15px 30px;
+	background: white;
+	border: 1px solid transparent;
+	border-color: #ccc;
+}
+
+/* Team */ 
+
+.team {
+	max-width: 1200px;
+	margin: 80px auto;	
+}
+
+.team h2 {
+font-size: 1.4em;
+margin-bottom: 0 0 10px 0;
+}
+
+.team-container {
+	display: flex;
+	margin: 0 auto;
+}
+
+.team-item {
+	margin: 20px;
+}
+
+.team-item img {
+	margin: 0 0 20px 0;
+}
+
+.team-item a {
+	color: #d65814;
+}
+
+.team-item a:hover {
+	color: #7f340b;
+}
+
+/* Footer */
+
+.footer {
+	background: #f55700;
+}
+
+.footer-nav ul {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.footer-nav li {
+	margin-top: 50px;
+	padding: 0 10px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.footer img {
+	margin: 10px auto;
+	padding-left: 40px;
+}
+
+.footer-item {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+
+.footer-item p,a {
+	color: white;
+	padding: 0 5px;
+}
+
+.footer-item a {
+	text-transform: uppercase;
+}
+
+.footer-item a:hover {
+	color: #7f340b
+}
